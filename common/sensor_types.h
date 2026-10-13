@@ -5,6 +5,7 @@
 typedef struct{
 	float temperature;
 	float humidity;
+	float light;
 	uint8_t error_code;
 }sensor_data_t;
 #endif

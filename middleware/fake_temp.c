@@ -9,6 +9,7 @@ static int fake_temp_init (void){
 static int fake_temp_read (sensor_data_t *out){
 	out->temperature = rand() % 11 + 25;
 	out->humidity=0;
+	out->light = 0;
 	out->error_code=0;
 	return 0;	
 }
